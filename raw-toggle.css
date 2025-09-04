@@ -1,0 +1,42 @@
+/* Styling for the toggle button on raw pages */
+.raw-preview-toggle {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 9999;
+}
+
+#toggle-preview-btn {
+  background: #0969da;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 8px 16px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  transition: all 0.2s;
+}
+
+#toggle-preview-btn:hover {
+  background: #0860ca;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+#toggle-preview-btn:active {
+  transform: translateY(0);
+}
+
+.toggle-icon {
+  font-size: 16px;
+}
+
+/* Hide button during transitions */
+body.transitioning .raw-preview-toggle {
+  display: none;
+}

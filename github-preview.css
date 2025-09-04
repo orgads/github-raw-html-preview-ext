@@ -1,0 +1,24 @@
+/* Dark green styling for Preview button */
+.github-html-preview-btn {
+  background-color: #238636 !important;
+  color: #ffffff !important;
+  border-color: rgba(240, 246, 252, 0.1) !important;
+  transition: background-color 0.2s ease !important;
+}
+
+.github-html-preview-btn:hover {
+  background-color: #2ea043 !important;
+  border-color: rgba(240, 246, 252, 0.1) !important;
+  color: #ffffff !important;
+}
+
+.github-html-preview-btn:focus {
+  background-color: #238636 !important;
+  border-color: rgba(240, 246, 252, 0.1) !important;
+  color: #ffffff !important;
+  box-shadow: 0 0 0 3px rgba(46, 160, 67, 0.3) !important;
+}
+
+.github-html-preview-btn:active {
+  background-color: #1f7a2e !important;
+}
